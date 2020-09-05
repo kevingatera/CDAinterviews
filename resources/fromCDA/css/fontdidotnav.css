@@ -1,0 +1,16 @@
+ #menuBtn:before, #menuBtn.show:before, nav ul li a {
+ font-family: 'theano_didotregular';
+	}
+	
+nav > ul > li > ul {
+ 	top: 84px;
+ 	}
+ 	
+ 	
+ @media only screen and (max-width: 960px) {
+ nav > ul > li > ul {
+  	top: 5px;
+  	}
+ 
+ 
+ }

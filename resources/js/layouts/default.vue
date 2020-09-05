@@ -24,12 +24,12 @@ export default {
 </script>
 
 <style scoped>
-@import "https://cdainterview.com/rw_common/themes/Endeavor/styles.css";
-@import "https://cdainterview.com/rw_common/themes/Endeavor/colourtag-page3.css";
-@import "https://cdainterview.com/rw_common/themes/Endeavor/flexslider.css";
+@import "../../fromCDA/styles.css";
+@import "../../fromCDA/colourtag-page3.css";
+/* @import "https://cdainterview.com/rw_common/themes/Endeavor/flexslider.css";
 @import "https://cdainterview.com/rw_common/themes/Endeavor/css/contentcenter.css";
-@import "https://cdainterview.com/rw_common/themes/Endeavor/css/ec9on.css";
-@import "https://cdainterview.com/rw_common/themes/Endeavor/css/rimage.css";
+@import "https://cdainterview.com/rw_common/themes/Endeavor/css/ec9on.css"; */
+/*@import "https://cdainterview.com/rw_common/themes/Endeavor/css/rimage.css";
 @import "https://cdainterview.com/rw_common/themes/Endeavor/css/ssoff.css";
 @import "https://cdainterview.com/rw_common/themes/Endeavor/css/sslide.css";
 @import "https://cdainterview.com/rw_common/themes/Endeavor/css/sidenone.css";
@@ -44,5 +44,5 @@ export default {
 @import "https://cdainterview.com/rw_common/themes/Endeavor/css/fontarialside.css";
 @import "https://cdainterview.com/rw_common/themes/Endeavor/css/fontarialheader.css";
 @import "https://cdainterview.com/rw_common/themes/Endeavor/css/fontarialcontent.css";
-@import "https://cdainterview.com/rw_common/themes/Endeavor/css/font13.css";
+@import "https://cdainterview.com/rw_common/themes/Endeavor/css/font13.css"; */
 </style>

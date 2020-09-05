@@ -1,0 +1,59 @@
+@import url(http://fonts.googleapis.com/css?family=Arapey:400italic);
+section #padding, aside, #extraContainer2, #extraContainer3, #extraContainer4, #extraContainer5, #extraContainer6, #footer   {
+	font-family: 'Arapey', serif;
+	}
+	
+@media only screen and (min-width: 1024px) and (max-width: 1024px) {	
+#sideTitle {
+	font-style: normal;
+}
+
+aside {
+		font-style: italic;
+		
+}
+
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 768px) {
+
+#sideTitle {
+	font-style: normal;
+}
+
+aside {
+		font-style: italic;
+		
+}
+
+}
+
+@media only screen and (min-width: 568px) and (max-width: 568px) {
+
+#sideTitle {
+	font-style: normal;
+}
+
+aside {
+		font-style: italic;
+		
+}
+
+}
+
+
+@media only screen and (min-width: 320px) and (max-width: 320px) {
+
+#sideTitle {
+	font-style: normal;
+}
+
+aside {
+		font-style: italic;
+		
+}
+
+
+
+}

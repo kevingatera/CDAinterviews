@@ -1,0 +1,5 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+#menuBtn:before, #menuBtn.show:before, nav ul li a {
+	font-family: 'Open Sans', sans-serif;
+	}

@@ -1,0 +1,17 @@
+nav, #titlelogo {
+	background-color: rgba(0, 0, 0, .60)!important;
+}
+
+nav ul li a {
+	color: #fff!important;
+}
+
+#tl {
+		border: 1px solid rgba(125, 125, 125, 0.6);
+}
+
+#nwrap {
+	border-top: 1px solid rgba(125, 125, 125, .6)!important;
+	}
+	
+	

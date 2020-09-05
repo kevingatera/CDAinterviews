@@ -1,0 +1,4 @@
+.thumbnail-frame a img:hover {opacity: 0.2!important;}
+
+
+.thumbnail-frame a img:hover .thumbnail-frame {background: #111!important;}

@@ -1,0 +1,5 @@
+	@import url(http://fonts.googleapis.com/css?family=Merriweather);
+
+ #menuBtn:before, #menuBtn.show:before, nav ul li a  {
+font-family: 'Merriweather', serif;
+	}
