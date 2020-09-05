@@ -4,8 +4,9 @@
       <div id="feature" class="bghide">
         <img
           id="featureImg"
-          src="../../fromCDA/images/cda-interview-guide.jpg"
+          src="https://cdainterview.com/resources/cda-interview-guide.jpg"
         />
+        <!-- src="../../fromCDA/images/cda-interview-guide.jpg" -->
         <div id="extraContainer11">
           <div class="videoWrapper"></div>
         </div>

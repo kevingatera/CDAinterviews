@@ -4,7 +4,7 @@
       <div id="feature" class="bghide">
         <img
           id="featureImg"
-          src="https://cdainterview.com/resources/contact-us.png"
+          src="https://cdainterview.com/rw_common/resources/contact-us.png"
         />
         <div id="extraContainer11">
           <div class="videoWrapper"></div>

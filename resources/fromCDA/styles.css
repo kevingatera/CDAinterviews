@@ -223,23 +223,25 @@ ol.lower-roman {
 
 @font-face {
     font-family: "socialicoregular";
-    src: url("fonts/socialico-webfont.eot");
-    src: url("fonts/socialico-webfont.eot?#iefix") format("embedded-opentype"),
-        url("fonts/socialico-webfont.woff") format("woff"),
-        url("fonts/socialico-webfont.ttf") format("truetype"),
-        url("fonts/socialico-webfont.svg#socialicoregular") format("svg");
+    src: url("../fromCDA/fonts/socialico-webfont.eot");
+    src: url("../fromCDA/fonts/socialico-webfont.eot?#iefix")
+            format("embedded-opentype"),
+        url("../fromCDA/fonts/socialico-webfont.woff") format("woff"),
+        url("../fromCDA/fonts/socialico-webfont.ttf") format("truetype"),
+        url("../fromCDA/fonts/socialico-webfont.svg#socialicoregular")
+            format("svg");
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: "socialico_plusregular";
-    src: url("fonts/socialico_plus-webfont.eot");
-    src: url("fonts/socialico_plus-webfont.eot?#iefix")
+    src: url("../fromCDA/fonts/socialico_plus-webfont.eot");
+    src: url("../fromCDA/fonts/socialico_plus-webfont.eot?#iefix")
             format("embedded-opentype"),
-        url("fonts/socialico_plus-webfont.woff") format("woff"),
-        url("fonts/socialico_plus-webfont.ttf") format("truetype"),
-        url("fonts/socialico_plus-webfont.svg#socialico_plusregular")
+        url("../fromCDA/fonts/socialico_plus-webfont.woff") format("woff"),
+        url("../fromCDA/fonts/socialico_plus-webfont.ttf") format("truetype"),
+        url("../fromCDA/fonts/socialico_plus-webfont.svg#socialico_plusregular")
             format("svg");
     font-weight: normal;
     font-style: normal;
@@ -247,12 +249,13 @@ ol.lower-roman {
 
 @font-face {
     font-family: "theano_didotregular";
-    src: url("fonts/theanodidot-regular-webfont.eot");
-    src: url("fonts/theanodidot-regular-webfont.eot?#iefix")
+    src: url("../fromCDA/fonts/theanodidot-regular-webfont.eot");
+    src: url("../fromCDA/fonts/theanodidot-regular-webfont.eot?#iefix")
             format("embedded-opentype"),
-        url("fonts/theanodidot-regular-webfont.woff") format("woff"),
-        url("fonts/theanodidot-regular-webfont.ttf") format("truetype"),
-        url("fonts/theanodidot-regular-webfont.svg#theano_didotregular")
+        url("../fromCDA/fonts/theanodidot-regular-webfont.woff") format("woff"),
+        url("../fromCDA/fonts/theanodidot-regular-webfont.ttf")
+            format("truetype"),
+        url("../fromCDA/fonts/theanodidot-regular-webfont.svg#theano_didotregular")
             format("svg");
     font-weight: normal;
     font-style: normal;
@@ -260,12 +263,14 @@ ol.lower-roman {
 
 @font-face {
     font-family: "libre_baskervilleregular";
-    src: url("fonts/librebaskerville-regular-webfont.eot");
-    src: url("fonts/librebaskerville-regular-webfont.eot?#iefix")
+    src: url("../fromCDA/fonts/librebaskerville-regular-webfont.eot");
+    src: url("../fromCDA/fonts/librebaskerville-regular-webfont.eot?#iefix")
             format("embedded-opentype"),
-        url("fonts/librebaskerville-regular-webfont.woff") format("woff"),
-        url("fonts/librebaskerville-regular-webfont.ttf") format("truetype"),
-        url("fonts/librebaskerville-regular-webfont.svg#libre_baskervilleregular")
+        url("../fromCDA/fonts/librebaskerville-regular-webfont.woff")
+            format("woff"),
+        url("../fromCDA/fonts/librebaskerville-regular-webfont.ttf")
+            format("truetype"),
+        url("../fromCDA/fonts/librebaskerville-regular-webfont.svg#libre_baskervilleregular")
             format("svg");
     font-weight: normal;
     font-style: normal;
@@ -273,23 +278,25 @@ ol.lower-roman {
 
 @font-face {
     font-family: "sansumiregular";
-    src: url("fonts/Sansumi-Bold-webfont.eot");
-    src: url("fonts/Sansumi-Bold-webfont.eot?#iefix")
+    src: url("../fromCDA/fonts/Sansumi-Bold-webfont.eot");
+    src: url("../fromCDA/fonts/Sansumi-Bold-webfont.eot?#iefix")
             format("embedded-opentype"),
-        url("fonts/Sansumi-Bold-webfont.woff") format("woff"),
-        url("fonts/Sansumi-Bold-webfont.ttf") format("truetype"),
-        url("fonts/Sansumi-Bold-webfont.svg#sansumiregular") format("svg");
+        url("../fromCDA/fonts/Sansumi-Bold-webfont.woff") format("woff"),
+        url("../fromCDA/fonts/Sansumi-Bold-webfont.ttf") format("truetype"),
+        url("../fromCDA/fonts/Sansumi-Bold-webfont.svg#sansumiregular")
+            format("svg");
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: "BebasRegular";
-    src: url("fonts/BEBAS___-webfont.eot");
-    src: url("fonts/BEBAS___-webfont.eot?#iefix") format("embedded-opentype"),
-        url("fonts/BEBAS___-webfont.woff") format("woff"),
-        url("fonts/BEBAS___-webfont.ttf") format("truetype"),
-        url("fonts/BEBAS___-webfont.svg#BebasRegular") format("svg");
+    src: url("../fromCDA/fonts/BEBAS___-webfont.eot");
+    src: url("../fromCDA/fonts/BEBAS___-webfont.eot?#iefix")
+            format("embedded-opentype"),
+        url("../fromCDA/fonts/BEBAS___-webfont.woff") format("woff"),
+        url("../fromCDA/fonts/BEBAS___-webfont.ttf") format("truetype"),
+        url("../fromCDA/fonts/BEBAS___-webfont.svg#BebasRegular") format("svg");
     font-weight: normal;
     font-style: normal;
 }
@@ -344,7 +351,7 @@ header {
 
 #feature {
     position: relative;
-    background: url("./images/endbanner.jpg") no-repeat left top;
+    background: url("../fromCDA/images/endbanner.jpg") no-repeat left top;
     margin-bottom: -6px;
 }
 
@@ -588,7 +595,7 @@ nav li li li li li:hover ul {
     right: 10px;
     display: none;
     text-indent: -9999px;
-    background: url("./images/up1.jpg") no-repeat;
+    background: url("../fromCDA/images/up1.jpg") no-repeat;
     width: 70px;
     right: 0;
 }
@@ -1268,7 +1275,7 @@ ul.blog-tag-cloud li a:hover {
 }
 
 .movie-thumbnail-frame:hover {
-    background: url("./images/p1.jpg") no-repeat;
+    background: url("../fromCDA/images/p1.jpg") no-repeat;
     background-position: 52% 42%;
 }
 

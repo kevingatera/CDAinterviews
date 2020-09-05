@@ -28,7 +28,7 @@
           <a href="https://cdainterview.com/">
             <div id="logo">
               <img
-                src="../../fromCDA/images/bemo-logo2.png"
+                src="https://cdainterview.com/rw_common/images/bemo-logo2.png"
                 width="167"
                 height="100"
                 alt="Site logo"
