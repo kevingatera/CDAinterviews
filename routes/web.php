@@ -13,6 +13,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+// Route::get('contact-us', 'ContactController@getContact');
+Route::post('contact-us', 'ContactController@saveContact');
+// Route::post('submit', 'ContactController@saveContact');
+
 // Route::get('/Main', function () {
 //     return view('Main');
 // });

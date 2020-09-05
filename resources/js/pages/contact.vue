@@ -4,7 +4,7 @@
       <div id="feature" class="bghide">
         <img
           id="featureImg"
-          src="https://cdainterview.com/rw_common/resources/contact-us.png"
+          src="https://cdainterview.com/resources/contact-us.png"
         />
         <div id="extraContainer11">
           <div class="videoWrapper"></div>
@@ -39,11 +39,7 @@
           </div>
           <br />
 
-          <form
-            action="./contact-us_files/mailer.php"
-            method="post"
-            enctype="multipart/form-data"
-          >
+          <form @submit.prevent="contactUs" @keydown="form.onKeydown($event)">
             <div>
               <div class="message-text">
                 <span style="font-size:17px; font-weight:bold; "
@@ -67,27 +63,40 @@
                 class="form-input-field"
                 type="text"
                 value=""
-                name="form[element0]"
                 size="40"
-              /><br /><br />
+                v-model="form.name"
+                :class="{ 'is-invalid': form.errors.has('name') }"
+                name="name"
+              />
+              <has-error :form="form" field="name" /><br /><br />
 
               <label>Email Address:</label> *<br />
               <input
                 class="form-input-field"
-                type="text"
                 value=""
-                name="form[element1]"
                 size="40"
-              /><br /><br />
+                v-model="form.email"
+                :class="{ 'is-invalid': form.errors.has('email') }"
+                type="email"
+                name="email"
+              />
+              <has-error :form="form" field="email" />
+
+              <br /><br />
 
               <label>How can we help you?</label> *<br />
               <textarea
                 class="form-input-field"
-                name="form[element2]"
                 rows="8"
                 cols="38"
-              ></textarea
-              ><br /><br />
+                v-model="form.subject"
+                :class="{ 'is-invalid': form.errors.has('name') }"
+                type="text"
+                name="subject"
+              ></textarea>
+              <has-error :form="form" field="subject" />
+
+              <br /><br />
 
               <div style="display: none;">
                 <div class="message-text">
@@ -126,6 +135,7 @@
                 type="submit"
                 name="submitButton"
                 value="Submit"
+                :disabled="submitted"
               />
             </div>
           </form>
@@ -171,21 +181,52 @@
 
 <script>
 import { mapGetters } from "vuex";
+import Form from "vform";
+// import axios from 'axios';
 
 export default {
   layout: "default",
 
+  middleware: "auth",
+
   metaInfo() {
-    return { title: this.$t("home") };
+    return { title: this.$t("contact") };
   },
 
   data: () => ({
-    title: window.config.appName
+    title: window.config.appName,
+    form: new Form({
+      name: "",
+      email: "",
+      subject: ""
+    }),
+    errors: {},
+    submitted: false
   }),
 
   computed: mapGetters({
     authenticated: "auth/check"
-  })
+  }),
+
+  methods: {
+    async contactUs() {
+      this.submitted = true;
+
+      // Register the user.
+      const { data } = await this.form.post("/contact-us");
+
+      // debugger;
+      console.log(data);
+
+      // .then(response => {
+      //   console.log(response);
+      //   // some success message or the like
+      // })
+      // .catch(errors => {
+      //   console.log(errors.response.data.errors);
+      // });
+    }
+  }
 };
 </script>
 

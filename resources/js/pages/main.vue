@@ -372,7 +372,7 @@ import { mapGetters } from "vuex";
 export default {
   layout: "default",
 
-  // middleware: "auth",
+  middleware: "auth",
 
   metaInfo() {
     return { title: this.$t("home") };
