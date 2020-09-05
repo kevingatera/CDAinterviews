@@ -4,7 +4,7 @@
       <div id="feature" class="bghide">
         <img
           id="featureImg"
-          src="https://cdainterview.com/resources/cda-interview-guide.jpg"
+          src="../../fromCDA/images/cda-interview-guide.jpg"
         />
         <div id="extraContainer11">
           <div class="videoWrapper"></div>
@@ -378,12 +378,12 @@ export default {
   },
 
   data: () => ({
-    title: window.config.appName,
+    title: window.config.appName
   }),
 
   computed: mapGetters({
-    authenticated: "auth/check",
-  }),
+    authenticated: "auth/check"
+  })
 };
 </script>
 
