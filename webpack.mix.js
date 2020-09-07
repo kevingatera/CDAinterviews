@@ -5,7 +5,7 @@ require('laravel-mix-versionhash')
 // const { BundleAnalyzerPlugin } = require('webpack-bundle-analyzer')
 
 mix
-  .js('resources/js/app.js', 'public/dist/js')
+  .js('resources/js/app.js', 'public/dist/js').extract(['vue', 'axios', 'bootstrap'])
   .sass('resources/sass/app.scss', 'public/dist/css')
 
   .disableNotifications()
