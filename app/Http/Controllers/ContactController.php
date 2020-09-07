@@ -36,12 +36,14 @@ class ContactController extends Controller
                  'user_message' => $request->get('message'),
              ), function($message) use ($request)
                {
-                  $message->from($request->email);
+                  $message->from('kevin@deployitwith.me');
                   $message->to('kevin@deployitwith.me');
+                  $message->cc($request->email);
                });
 
-        //   return back()->with('success', 'Thank you for contact us!');
-        return response()->json([$request->all()]);
+//           return back()->with('success', 'Thank you for contact us!');
+           return response()->Json(['success' => 'Thank you for contact us!'], 200);
+//        return response()->json([$request->all()]);
 
     }
 }
