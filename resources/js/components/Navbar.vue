@@ -27,16 +27,17 @@
         <div id="titlelogo">
           <a href="https://cdainterview.com/">
             <div id="logo">
+              <!-- src="https://cdainterview.com/rw_common/images/bemo-logo2.png"-->
+
               <img
-                src="https://cdainterview.com/rw_common/images/bemo-logo2.png"
+                src="../../fromCDA/images/bemo-logo2.png"
                 width="167"
                 height="100"
                 alt="Site logo"
-              />
+              >
             </div>
-            <h1></h1
-          ></a>
-          <h2></h2>
+            <h1 /></a>
+          <h2 />
         </div>
 
         <ul class="navbar-nav ml-auto">
@@ -81,7 +82,7 @@
               <img
                 :src="user.photo_url"
                 class="rounded-circle profile-photo mr-1"
-              />
+              >
               {{ user.name }}
             </a>
             <div class="dropdown-menu">
@@ -128,8 +129,8 @@
 </template>
 
 <script>
-import { mapGetters } from "vuex";
-import LocaleDropdown from "./LocaleDropdown";
+import { mapGetters } from 'vuex'
+import LocaleDropdown from './LocaleDropdown'
 
 export default {
   components: {
@@ -141,19 +142,19 @@ export default {
   }),
 
   computed: mapGetters({
-    user: "auth/user"
+    user: 'auth/user'
   }),
 
   methods: {
-    async logout() {
+    async logout () {
       // Log out the user.
-      await this.$store.dispatch("auth/logout");
+      await this.$store.dispatch('auth/logout')
 
       // Redirect to login.
-      this.$router.push({ name: "login" });
+      this.$router.push({ name: 'login' })
     }
   }
-};
+}
 </script>
 
 <style scoped>

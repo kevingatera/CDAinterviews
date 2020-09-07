@@ -15,7 +15,7 @@
                 class="form-control"
                 type="email"
                 name="email"
-              />
+              >
               <has-error :form="form" field="email" />
             </div>
           </div>
@@ -32,7 +32,7 @@
                 class="form-control"
                 type="password"
                 name="password"
-              />
+              >
               <has-error :form="form" field="password" />
             </div>
           </div>
@@ -77,44 +77,44 @@
 </template>
 
 <script>
-import Form from "vform";
+import Form from 'vform'
 
 export default {
-  layout: "basic",
+  layout: 'basic',
 
-  middleware: "guest",
+  middleware: 'guest',
 
-  metaInfo() {
-    return { title: this.$t("login") };
+  metaInfo () {
+    return { title: this.$t('login') }
   },
 
   data: () => ({
     form: new Form({
-      email: "",
-      password: ""
+      email: '',
+      password: ''
     }),
     remember: false
   }),
 
   methods: {
-    async login() {
+    async login () {
       // Submit the form.
-      const { data } = await this.form.post("/api/login");
+      const { data } = await this.form.post('/api/login')
 
       // Save the token.
-      this.$store.dispatch("auth/saveToken", {
+      this.$store.dispatch('auth/saveToken', {
         token: data.token,
         remember: this.remember
-      });
+      })
 
       // Fetch the user.
-      await this.$store.dispatch("auth/fetchUser");
+      await this.$store.dispatch('auth/fetchUser')
 
       // Redirect home.
-      this.$router.push({ name: "home" });
+      this.$router.push({ name: 'main' })
     }
   }
-};
+}
 </script>
 
 <style scoped>
